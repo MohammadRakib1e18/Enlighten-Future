@@ -118,14 +118,103 @@
 
         <!-- header ends -->
 
+        <!-- main starts  -->
+
+        <div
+            class="
+                container
+                mt-5
+                rounded
+                mx-auto
+                row
+                bg-info
+                ps-4
+                py-5
+                text-light
+                gap-5
+            "
+        >
+            <div class="col-lg-7 col-12 text-center">
+                <h1>Ready to join?</h1>
+                <p class="fw-semibold text-center">
+                    It is a long established fact that<br />
+                    a reader will be distracted by the readable content of a
+                    page when looking at its layout.
+                </p>
+            </div>
+            <div class="col-lg-3 col-12 d-flex justify-content-center align-items-center">
+                <!-- Button trigger modal -->
+                <button
+                    type="button"
+                    class="btn btn-light text-info p-3 fw-bold fs-2"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                >
+                    Registration
+                </button>
+
+                <!-- Modal -->
+                <div
+                    class="modal fade"
+                    id="staticBackdrop"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                >
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bg-primary bg-opacity-25">
+                                <h3
+                                    class="modal-title  mx-auto text-secondary fw-bold"
+                                    id="staticBackdropLabel"
+                                >
+                                    ------------Register-------------
+                                </h3>
+                                <i type="button" class="fs-3 text-danger fas fa-window-close" data-bs-dismiss="modal"></i>
+                            </div>
+                            <div class="modal-body bg-secondary">
+                                <form action="">
+                                    <div class=" d-flex mb-3">
+                                        <input required type="text" class="w-50 me-3 p-1" placeholder="First Name">
+                                        <input type="text" class="w-50 p-1" placeholder="Last Name">
+                                    </div>
+                                    <input type="email" required class="w-100 mb-3 p-1" placeholder="Email">
+                                    <input type="password" required class="w-100 mb-3 p-1" placeholder="Password">
+                                    <input type="password" required class="w-100 mb-3 p-1" placeholder="Confirm Password">
+                                    <div class="d-flex justify-content-end">
+                                        <button
+                                            type="button"
+                                            class="btn btn-dark me-3"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            cancel
+                                        </button>
+                                        <button type="submit" class="btn btn-primary" >
+                                            submit
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main ends  -->
+
         <!------------------Frequently Asked Questions starts------------------>
         <div class="container mt-5 w-75 p-0" id="f&q">
             <h2 class="text-center fw-bold fs-1 text-info">
                 Frequently Asked Questions
             </h2>
             <p class="w-75 mx-auto text-muted fw-semibold text-center">
-                It is a long established fact that<br> a reader will be distracted
-                by the readable content of a page when looking at its layout.
+                It is a long established fact that<br />
+                a reader will be distracted by the readable content of a page
+                when looking at its layout.
             </p>
             <div class="row m2-5">
                 <div class="accordion-text accordion" id="accordionExample">
