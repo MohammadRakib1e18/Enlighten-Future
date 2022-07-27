@@ -25,6 +25,9 @@ body{
 .carousel-caption{
     bottom:30%;
 }
+.brand img{
+    width:12%;
+}
 
 /* ========================-<Media Quries>-=========================== */
 
