@@ -23,8 +23,14 @@ body{
 }
 
 .carousel-caption{
-    bottom:30%;
+    bottom:25%;
 }
+.enroll-btn{
+    right:-2%;
+    bottom:15%;
+    transform: rotate(-35deg);
+}
+
 .brand img{
     width:12%;
 }
@@ -49,7 +55,7 @@ body{
         width:90%;
     }
     .carousel-caption{
-        bottom:20%;
+        bottom:15%;
     }
 
 }
