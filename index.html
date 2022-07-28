@@ -82,7 +82,7 @@
                                 <a
                                     class="nav-link rounded-1 me-1 px-2"
                                     aria-current="page"
-                                    href="#package"
+                                    href="#courses"
                                     >Courses</a
                                 >
                             </li>
@@ -245,7 +245,7 @@
 
         <!-- main starts  -->
         <!-- ---------------------- Discover courses section starts -------------  -->
-        <div class="container w-75 mt-5 p-0 mx-auto">
+        <div id="courses" class="container w-75 mt-5 p-0 mx-auto">
             <h1 class="fs-1 fw-bolder text-center">
                 Discover Our Popular<br />Courses
             </h1>
@@ -643,6 +643,7 @@ and make up the bulk of the card.
                 py-5
                 text-light
                 gap-5
+                position-relative
             "
         >
             <div class="col-lg-7 col-12 text-center">
@@ -755,10 +756,13 @@ and make up the bulk of the card.
                     </div>
                 </div>
             </div>
+            <div class="pinned-img position-absolute">
+                <img src="images/pinned.png" alt="">
+            </div>
         </div>
 
         <!------------------Frequently Asked Questions starts------------------>
-        <div class="container mt-5 w-75 p-0" id="f&q">
+        <div class="ask-ans container mt-5 w-75 p-0" id="f&q">
             <h2 class="text-center fw-bold fs-1 text-info">
                 Frequently Asked Questions
             </h2>
@@ -1038,8 +1042,8 @@ and make up the bulk of the card.
 
         <!-- --------------trusted section(only for desktop) starts--------------->
 
-        <div class="w-75 mx-auto mt-5 d-sm-none d-lg-block">
-            <h1 class="mt-5 mb-5 fw-bolder fs-1 text-center">
+        <div class="w-75 bg-dark bg-opacity-10 shadow-lg px-2 py-1 mx-auto mt-5 d-sm-none d-lg-block">
+            <h1 class="mt-2 mb-5 fw-bolder fs-1 text-center">
                 Trusted by over 800+ companies
             </h1>
             <div
